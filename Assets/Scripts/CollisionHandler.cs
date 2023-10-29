@@ -3,11 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
-    [SerializeField] float levelLoadDelay = 1f;
+    [SerializeField] float levelLoadDelay = 2f;
     [SerializeField] AudioClip crash;
     [SerializeField] AudioClip success;
 
     AudioSource audioSource;
+
+    bool isTransitioning = false;
 
     void Start()
     {
@@ -16,6 +18,8 @@ public class CollisionHandler : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
+        if (isTransitioning) { return; }
+
         switch (other.gameObject.tag)
         {
             case "Friendly":
@@ -40,6 +44,8 @@ public class CollisionHandler : MonoBehaviour
     {
         // TODO: Add particle effect upon crash.
 
+        isTransitioning = true;
+        audioSource.Stop();
         audioSource.PlayOneShot(crash);
         GetComponent<Movement>().enabled = false;
         Invoke("ReloadLevel", levelLoadDelay); // Reload level after 1 second of delay.
@@ -49,6 +55,8 @@ public class CollisionHandler : MonoBehaviour
     {
         // TODO: Add particle effect upon successful landing.
 
+        isTransitioning = true;
+        // audioSource.Stop();
         audioSource.PlayOneShot(success);
         GetComponent<Movement>().enabled = false;
         Invoke("LoadNextLevel", levelLoadDelay);
