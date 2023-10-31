@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8510549717151286173}
   - component: {fileID: 6244628410465422558}
   - component: {fileID: 1942253988100979486}
-  - component: {fileID: 3273931804363932334}
   m_Layer: 0
   m_Name: Rocket Bump
   m_TagString: Untagged
@@ -27,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64492806874022876}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.145, z: 0}
+  m_LocalPosition: {x: 0, y: 0.367, z: 0}
   m_LocalScale: {x: 0.6, y: 0.3, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84,19 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3273931804363932334
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 64492806874022876}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3267655017543795620
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,7 +94,6 @@ GameObject:
   - component: {fileID: 5137545995722498998}
   - component: {fileID: 1814485249929170330}
   - component: {fileID: 183127073270219374}
-  - component: {fileID: 4325491588547439529}
   m_Layer: 0
   m_Name: Rocket Body
   m_TagString: Untagged
@@ -124,7 +109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3267655017543795620}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.72, z: 0}
+  m_LocalPosition: {x: 0, y: -0.05799985, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -181,19 +166,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4325491588547439529
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3267655017543795620}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5624146155536905283
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,7 +177,6 @@ GameObject:
   - component: {fileID: 136963788938814853}
   - component: {fileID: 843869740411256791}
   - component: {fileID: 7243074709260166410}
-  - component: {fileID: 3216852788112640917}
   m_Layer: 0
   m_Name: Booster
   m_TagString: Untagged
@@ -221,7 +192,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5624146155536905283}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.568, z: 0}
+  m_LocalPosition: {x: 0, y: -0.20999992, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -278,20 +249,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &3216852788112640917
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5624146155536905283}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &5961653676814830898
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +260,6 @@ GameObject:
   - component: {fileID: 298216381148345365}
   - component: {fileID: 5395602719194187493}
   - component: {fileID: 2152358083700954612}
-  - component: {fileID: 4795362012233641549}
   m_Layer: 0
   m_Name: Rocket Bump (1)
   m_TagString: Untagged
@@ -319,7 +275,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5961653676814830898}
   m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: 0.007, y: 1.266, z: 0}
+  m_LocalPosition: {x: 0.007, y: 0.48800027, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -376,19 +332,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4795362012233641549
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5961653676814830898}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6260107163450106376
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,6 +346,7 @@ GameObject:
   - component: {fileID: 1469726883}
   - component: {fileID: 1469726893}
   - component: {fileID: 1469726900}
+  - component: {fileID: 660377994806518771}
   m_Layer: 0
   m_Name: Rocket
   m_TagString: Untagged
@@ -581,6 +525,19 @@ MonoBehaviour:
   levelLoadDelay: 1
   crash: {fileID: 8300000, guid: 7e941c3ddf33a47d8929fadab8606ef6, type: 3}
   success: {fileID: 8300000, guid: a01faba95775c460fa21c5d9228f03be, type: 3}
+--- !u!65 &660377994806518771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6260107163450106376}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1589336, y: 1.4312232, z: 1}
+  m_Center: {x: -0.0044107437, y: 0.003671527, z: 0}
 --- !u!1 &7203748029063201353
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,7 +549,6 @@ GameObject:
   - component: {fileID: 6977451595152763955}
   - component: {fileID: 5987700364445416481}
   - component: {fileID: 1997278320520172797}
-  - component: {fileID: 8867765956037084816}
   m_Layer: 0
   m_Name: Side Thruster (1)
   m_TagString: Untagged
@@ -608,7 +564,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7203748029063201353}
   m_LocalRotation: {x: 0, y: 0, z: -0.5, w: 0.8660254}
-  m_LocalPosition: {x: 0.291, y: 0.401, z: 0}
+  m_LocalPosition: {x: 0.291, y: -0.37699986, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -665,19 +621,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8867765956037084816
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7203748029063201353}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8098511476991723811
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,7 +632,6 @@ GameObject:
   - component: {fileID: 7729978165568885210}
   - component: {fileID: 6144640646087504006}
   - component: {fileID: 9139929518875725817}
-  - component: {fileID: 3504756766598385639}
   m_Layer: 0
   m_Name: Side Thruster
   m_TagString: Untagged
@@ -705,7 +647,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8098511476991723811}
   m_LocalRotation: {x: 0, y: 0, z: 0.5, w: 0.8660254}
-  m_LocalPosition: {x: -0.302, y: 0.396, z: 0}
+  m_LocalPosition: {x: -0.302, y: -0.38199985, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -762,16 +704,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3504756766598385639
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8098511476991723811}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}

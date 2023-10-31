@@ -318,7 +318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 880790428879622307, guid: e80274aa2b58b4a6195cc48d217d1b8d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.443
+      value: 1.235
       objectReference: {fileID: 0}
     - target: {fileID: 880790428879622307, guid: e80274aa2b58b4a6195cc48d217d1b8d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -351,6 +351,10 @@ PrefabInstance:
     - target: {fileID: 880790428879622307, guid: e80274aa2b58b4a6195cc48d217d1b8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961653676814830898, guid: e80274aa2b58b4a6195cc48d217d1b8d, type: 3}
+      propertyPath: m_Name
+      value: Rocket Nose
       objectReference: {fileID: 0}
     - target: {fileID: 6260107163450106376, guid: e80274aa2b58b4a6195cc48d217d1b8d, type: 3}
       propertyPath: m_Name
