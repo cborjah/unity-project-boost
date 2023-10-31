@@ -308,6 +308,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1469726900, guid: e80274aa2b58b4a6195cc48d217d1b8d, type: 3}
+      propertyPath: crashParticles
+      value: 
+      objectReference: {fileID: 1216132872}
+    - target: {fileID: 1469726900, guid: e80274aa2b58b4a6195cc48d217d1b8d, type: 3}
+      propertyPath: successParticles
+      value: 
+      objectReference: {fileID: 1216132873}
     - target: {fileID: 880790428879622307, guid: e80274aa2b58b4a6195cc48d217d1b8d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -362,6 +370,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e80274aa2b58b4a6195cc48d217d1b8d, type: 3}
+--- !u!198 &1216132872 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 480590335886303106, guid: e80274aa2b58b4a6195cc48d217d1b8d, type: 3}
+  m_PrefabInstance: {fileID: 1216132871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1216132873 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2462505233038783175, guid: e80274aa2b58b4a6195cc48d217d1b8d, type: 3}
+  m_PrefabInstance: {fileID: 1216132871}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2349616032561644012
 PrefabInstance:
   m_ObjectHideFlags: 0
