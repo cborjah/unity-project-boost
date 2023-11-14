@@ -20,6 +20,13 @@ public class Oscillator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // When comparing two floating points, the chance of it being 0 (in this case) is not absolute.
+        // Two floats can vary by a tiny amount. It's unpredictable to use == with floats.
+        //* Always specify the acceptable difference.
+        //* The smallest float is Mathf.Epsilon. Always compare to this rather than zero.
+        // if (period == 0f) { return; }
+        if (period <= Mathf.Epsilon) { return; }
+
         float cycles = Time.time / period; // Continually grows over time.
         const float tau = Mathf.PI * 2; // Constant value of 6.283.
         float rawSinWave = Mathf.Sin(cycles * tau); // -1 to 1
